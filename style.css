@@ -1,6 +1,7 @@
 html, body {
   margin: 5px;
   padding: 5px;
+  background-color:honeydew;
 }
 
 canvas {
@@ -12,16 +13,48 @@ input {
   padding: 4px;
   margin: 5px;
   height: 30px;
-  width: 193px;
+  width: 203px;
 }
 
 button {
   padding: 4px;
   margin: 5px;
-  height: 40px;
+  height: 37px;
   width: 100px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 0 3px black;
+}
+
+button:active {
+  box-shadow: 0 0px white;
+  transform: translateY(3px);
+}
+
+h1 {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #footnote {
   font-style: italic;
+
+}
+
+
+.color-button {
+  color:white;
+}
+
+#red-button {
+  background-color: red;
+}
+
+#green-button {
+  background-color: green;
+
+}
+
+#blue-button {
+  background-color: blue;
 }
