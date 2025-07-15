@@ -1,6 +1,7 @@
 function setup() {
   createCanvas(400, 400);
   background("black");
+  createDiv("made by colin chung (2025)")
 }
 
 const inputField = document.querySelector("#input-field")
@@ -130,17 +131,15 @@ function draw() {
 
   // draw function
   function drawFunction(arr) {
-    stroke(1)
-    stroke(functionColor)
+    stroke(1);
+    stroke(functionColor);
     for (let i = 2; i < arr.length; i += 2) {
-      line(arr[i], arr[i + 1], arr[i - 2], arr[i - 1])
+      line(arr[i], arr[i + 1], arr[i - 2], arr[i - 1]);
     } 
   }
 
   if (coord.length > 3) {
-    drawFunction(coord)
+    drawFunction(coord);
   }
 
-
 }
-

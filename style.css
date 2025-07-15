@@ -12,8 +12,9 @@ canvas {
 input {
   padding: 4px;
   margin: 5px;
-  height: 30px;
+  height: 28px;
   width: 203px;
+  border: 1px solid black;
 }
 
 button {
@@ -57,4 +58,13 @@ h1 {
 
 #blue-button {
   background-color: blue;
+}
+
+#footer {
+  position: fixed;
+}
+
+div {
+  margin-top: 20px;
+  color: cornflowerblue;
 }
