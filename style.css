@@ -1,0 +1,27 @@
+html, body {
+  margin: 5px;
+  padding: 5px;
+}
+
+canvas {
+  display: block;
+  margin: 5px;
+}
+
+input {
+  padding: 4px;
+  margin: 5px;
+  height: 30px;
+  width: 193px;
+}
+
+button {
+  padding: 4px;
+  margin: 5px;
+  height: 40px;
+  width: 100px;
+}
+
+#footnote {
+  font-style: italic;
+}
