@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(400, 400);
   background("black");
-  createDiv("made by colin chung (2025)")
+  credit = createDiv("made by colin chung (2025)")
 }
 
 const inputField = document.querySelector("#input-field")
@@ -52,6 +52,7 @@ clearButton.addEventListener("click", clearGraph)
 
 function clearGraph() {
   coord = []
+  credit.remove()
   setup()
 }
 
