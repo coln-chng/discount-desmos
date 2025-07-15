@@ -1,5 +1,4 @@
 function setup() {
-  credit.remove()
   createCanvas(400, 400);
   background("black");
   let credit = createDiv("made by colin chung (2025)")
@@ -53,6 +52,7 @@ clearButton.addEventListener("click", clearGraph)
 
 function clearGraph() {
   coord = []
+  removeElements()
   setup()
 }
 
