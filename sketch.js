@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(400, 400);
   background("black");
-  credit = createDiv("made by colin chung (2025)")
+  let credit = createDiv("made by colin chung (2025)")
 }
 
 const inputField = document.querySelector("#input-field")
